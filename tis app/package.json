@@ -1,0 +1,14 @@
+{
+  "name": "tis-app",
+  "version": "1.0.0",
+  "description": "Weather App, TIS",
+  "main": "index.pug",
+  "scripts": {
+    "start": "pug index.pug -P -w"
+  },
+  "author": "Sologun Evgenii (squaldzn@ya.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
