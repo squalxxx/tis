@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tis-app-v2",
+  "version": "1.0.0",
+  "description": "Timer App, TIS",
+  "main": "index.html",
+  "author": "Sologub Evgenii (squaldzn@ya.ru)",
+  "license": "ISC"
+}

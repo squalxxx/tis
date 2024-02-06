@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TIS App #2</title>
+
+    <!-- Подключения шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <section class="timer">
+        <h1 id="timer" class="timer__dial">00:00:00</h1>
+
+        <div class="timer__buttons">
+            <button id="startTimer" class="button">Включить таймер</button>
+            <button id="stopTimer" class="button">Выключить таймер</button>
+        </div>
+    </section>
+
+    <!-- Подключение библиотеку SocketIO, а также client.js -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
